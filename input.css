@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 #hero {
+  height: 400px;
   background: url('../img/bg.jpg') center center / cover;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #hero h1 {
   text-shadow: 3px 3px 3px black;
+}
+
+#menu {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
